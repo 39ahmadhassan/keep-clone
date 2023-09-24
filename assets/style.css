@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Kalam';
+}
+/* body{
+    background-color: antiquewhite;
+} */
+.header{
+    background-color: #ffc107;
+}
+.header h1{
+    font-family: 'Kalam';
+    padding: 20px 0px;
+    margin: 0px;
+    font-weight: bolder;
+}
+.header i{
+    font-size: 40px;
+}
+.button{
+    text-align: center;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    width: 160px;
+    cursor: pointer;
+}
+.button:hover{
+    transition: all 0.5s ease-in;
+    background-color: #ffc107;
+}
+.button i{
+    width: 40px;
+    padding: 12px;
+    border-radius: 20px;
+    color: #000000;
+    background-color: #ffc107;
+    margin: 0px 0px 0px -30px;
+}
+.data-wrap{
+    margin: 20px 0px;
+    position: relative;
+    border: 1px solid #efe8e8;
+    height: 300px;
+    /* background-color: #ffffff; */
+}
+.data-wrap .icon{
+    display: flex;
+    justify-content: end;
+}
+.data-wrap textarea{
+    position: absolute;
+    top: 80px;
+    left: 5px;
+    width: 92%;
+    height: 200px;
+    /* height: 68%; */
+    border: none;
+}
+.data-wrap textarea:focus{
+    outline: none;
+}
+.data-wrap .icon i{
+    font-size: 18px;
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 20px;
+    color: #ffffff;
+}
+.icon .fa-pen-to-square{
+background-color: green;
+}
+.icon .fa-trash{
+    background-color: red;
+}
+.icon .fa-trash:hover{
+    color: red;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in;
+}
+.icon .fa-pen-to-square:hover {
+    background-color: #ffffff;
+    color: green;
+    transition: all 0.3s ease-in;
+}
+.data{
+    margin: 20px 0px;
+    height: 250px;
+    /* overflow: scroll; */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.hidden{
+    display: none;
+}
